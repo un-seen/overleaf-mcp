@@ -1,0 +1,23 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\title{An example paper for checking references}
+\author{Example Author}
+\date{}
+\begin{document}
+\maketitle
+
+\section{Introduction}
+Deep networks learn layered representations from data \cite{lecun2015deep}.
+Attention alone is enough to build a strong sequence model \cite{vaswani2017attention}.
+Precautionary saving changes how much households choose to work \cite{pijoanmas2006}.
+An early case series linked a vaccine to developmental disorders \cite{wakefield1998}.
+
+\section{Why check}
+The last two entries in \texttt{refs.bib} are planted problems: one carries the DOI of a
+different paper, and one cites a paper that has since been retracted. Ask your agent to
+check the references and it finds both.
+
+\bibliographystyle{plain}
+\bibliography{refs}
+\end{document}
