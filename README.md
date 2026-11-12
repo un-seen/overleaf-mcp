@@ -1,5 +1,12 @@
 # Overleaf MCP: check and compile your Overleaf paper from Claude Code, Codex or Cursor
 
+[![mcptry](https://mcptry.com/badge/com.hedwigai/hedwigai)](https://mcptry.com/servers/com.hedwigai/hedwigai)
+[![MCP Registry](https://img.shields.io/badge/MCP_Registry-com.hedwigai%2Fhedwigai-black)](https://registry.modelcontextprotocol.io/v0/servers?search=com.hedwigai/hedwigai)
+[![Claude connector](https://img.shields.io/badge/Claude-connector-black)](https://claude.ai/directory/hedwigai)
+[![Glama](https://img.shields.io/badge/Glama-hedwigai-black)](https://glama.ai/mcp/connectors/com.hedwigai/hedwigai)
+[![mcp.so](https://img.shields.io/badge/mcp.so-hedwigai-black)](https://mcp.so/servers/hedwigai)
+[![License](https://img.shields.io/github/license/un-seen/overleaf-mcp?color=black)](LICENSE)
+
 Work on an Overleaf project with the AI agent you already use. Through one hosted MCP server, [hedwigai](https://www.hedwigai.com/overleaf-mcp), your agent can:
 
 - **Check every reference in the `.bib`.** Each entry is looked up in Crossref, at doi.org and on the web. It comes back found, found with a different year or authors, or not found. A DOI that belongs to a different paper, and a paper that has been retracted, are flagged.
